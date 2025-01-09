@@ -1,0 +1,4 @@
+node_modules
+BetterQosWiki.code-workspace
+.vitepress
+wiki\.vitepress\cache

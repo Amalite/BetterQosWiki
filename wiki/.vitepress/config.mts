@@ -19,16 +19,16 @@ logo: '/icon.ico',
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Starter Guide', link: '/markdown-examples' },
-      { text: 'Advanaced Guide', link: '/markdown-examples' }
+      { text: 'Starter Guide', link: '/WIP' },
+      { text: 'Advanaced Guide', link: '/WIP' }
     ],
 
     sidebar: [
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Starter Guide', link: '/markdown-examples' },
+          { text: 'Advanced Guide', link: '/WIP' }
         ]
       }
     ],
@@ -36,7 +36,7 @@ logo: '/icon.ico',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],
-    
+
     search: {
       provider: 'local'
     }

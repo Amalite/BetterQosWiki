@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: New To Modeling?
-      link: /markdown-examples
+      link: /WIP
     - theme: alt
       text: Ready for Advanced Skills?
-      link: /api-examples
+      link: /WIP
 
 features:
   - title: Feature A

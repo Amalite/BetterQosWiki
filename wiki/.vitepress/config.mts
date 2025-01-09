@@ -3,12 +3,24 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Better Qos Wiki",
-  description: " ",
+  description: "",
+  head: [
+    [
+      'link', {
+        rel: 'icon', href: '/icon.ico'
+      }
+    ]
+  ],
+
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+logo: '/icon.ico',
+
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Starter Guide', link: '/markdown-examples' },
+      { text: 'Advanaced Guide', link: '/markdown-examples' }
     ],
 
     sidebar: [
@@ -23,6 +35,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+    
+    search: {
+      provider: 'local'
+    }
   }
 })

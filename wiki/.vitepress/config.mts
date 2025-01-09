@@ -27,14 +27,14 @@ logo: '/icon.ico',
       {
         text: 'Examples',
         items: [
-          { text: 'Starter Guide', link: '/markdown-examples' },
+          { text: 'Starter Guide', link: '/WIP' },
           { text: 'Advanced Guide', link: '/WIP' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Amalite/BetterQosWiki' }
     ],
 
     search: {

@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: New To Modeling?
-      link: /WIP
+      link: /StarterGuide/StarterIntro
     - theme: alt
       text: Ready for Advanced Skills?
       link: /WIP

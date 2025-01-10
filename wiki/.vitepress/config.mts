@@ -13,7 +13,7 @@ export default defineConfig({
 
 
 cacheDir: './.vitepress/cache',
-
+base: '/BetterQosWiki/',
 lastUpdated: true,
 
   themeConfig: {

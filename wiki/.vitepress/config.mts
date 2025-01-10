@@ -12,9 +12,10 @@ export default defineConfig({
   ],
 
 
-cacheDir: './.vitepress/cache',
+cacheDir: '/.vitepress/cache',
 base: '/BetterQosWiki/',
 lastUpdated: true,
+//srcDir: './wiki',
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

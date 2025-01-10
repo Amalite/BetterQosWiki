@@ -8,18 +8,6 @@ export default defineConfig({
       'link', {
         rel: 'icon', href: '/icon.ico'
       }
-    ],
-    [
-      'script',
-      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-PERFQ84FBP' }
-    ],
-    [
-      'script',
-      {},
-      `window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-PERFQ84FBP');`
     ]
   ],
 

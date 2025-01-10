@@ -47,7 +47,7 @@ logo: '/icon.ico',
 
     lightModeSwitchTitle: 'Let there be light!',
     darkModeSwitchTitle: 'Let there be dark!',
-    darkModeSwitchLabel:'<p align="right">Theme</p>',
+    darkModeSwitchLabel:'Theme',
 
     lastUpdated: {
       text: 'Updated at',

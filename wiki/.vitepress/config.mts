@@ -2,11 +2,26 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Better Qos Wiki",
-  description: "",
+  description: "A Wiki that strives to teach modelers new and experienced about modeling for Qosmetics.",
   head: [
     [
       'link', {
-        rel: 'icon', href: '/icon.ico'
+        rel: 'icon', type:"image/x-icon", href: '/icon.ico'
+      }
+    ],
+    [
+      'meta', {
+        content: '/images/icon.png', property: 'og:image'
+      }
+    ],
+    [
+      'meta', {
+        name: 'keywords', content:"Qosmetics, Beat Saber, Saber Creation, Whacker Creation, Whackers, Sabers, Beat Saber Mods, Qos Wiki, Custom Sabers, Custom Whackers"
+      }
+    ],
+    [
+      'meta', {
+        content: '#C03DAF', name:"theme-color"
       }
     ]
   ],
@@ -16,11 +31,13 @@ cleanUrls: true,
 cacheDir: '/.vitepress/cache',
 base: '/BetterQosWiki/',
 lastUpdated: true,
+
 //srcDir: './wiki',
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-logo: '/icon.ico',
+logo: '/images/icon.png',
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Starter Guide', link: '/StarterGuide/StarterIntro' },

@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Better Qos Wiki",
+  titleTemplate: 'BQW',
   description: "A Wiki that strives to teach modelers new and experienced about modeling for Qosmetics.",
   head: [
     [
@@ -11,7 +12,7 @@ export default defineConfig({
     ],
     [
       'meta', {
-        content: '/images/icon.png', property: 'og:image'
+        property: 'og:image', content: '/images/icon.png'
       }
     ],
     [

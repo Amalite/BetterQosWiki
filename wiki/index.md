@@ -1,7 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
+titleTemplate: false
 hero:
   name: "Better Qos Wiki"
   text: ""
@@ -21,5 +21,30 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-   
 ---
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
+
+const members = [
+  {
+    avatar: 'https://github.com/Amalite.png',
+    name: 'Amalien (Amalite) the Formovian',
+    title: 'Creator, Main Author',
+    links: [
+      { icon: 'github', link: 'https://github.com/Amalite' },
+      { icon: 'twitter', link: 'https://twitter.com/Formovian' }
+    ]
+  }
+]
+</script>
+
+<br>
+<br>
+<hr>
+<p align="center">
+<h1>Contributors</h1>
+People who helped out with the Wiki!
+</p>
+
+<VPTeamMembers size="medium" :members="members" />
+<hr>

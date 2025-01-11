@@ -39,23 +39,3 @@ Fake Glow is a particle aura that goes around the model to give the illusion of 
 
 <img src="\images\Fake Glow Example.png" alt="An image showing two cubes, one cube has No Fake Glow, whole the other does." width="500"/>
 <hr/>
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::

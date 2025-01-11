@@ -24,7 +24,7 @@ logo: '/icon.ico',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Starter Guide', link: '/StarterGuide/StarterIntro' },
-      { text: 'Advanaced Guide', link: '/WIP' }
+      { text: 'Advanced Guide', link: '/WIP' }
     ],
 
     sidebar: [

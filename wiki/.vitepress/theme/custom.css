@@ -1,0 +1,25 @@
+/*:root (Light Mode)*/
+
+.dark{
+    /* Main Colors*/
+    --vp-c-default-1: #251a24;
+    --vp-c-default-2: #462843;
+    --vp-c-default-3: #5e3157;
+    --vp-c-brand-1: #e872ec;
+    --vp-c-brand-2: #8b348b;
+    --vp-c-brand-3: #97318a;
+    --vp-c-bg:  #110e13;
+    --vp-c-bg-alt: #18151a;
+    --vp-c-bg-elv: #18151a;
+    --vp-c-bg-soft: #231f25;
+        /* Local Search*/
+    --vp-local-search-bg: rgb(36, 29, 37);
+    --vp-local-search-result-bg: #1b161b;
+    --vp-local-search-result-border: #1f131b;
+    --vp-local-search-result-selected-bg: #0e0a0e;
+    --vp-local-search-result-selected-border: #5f2e61;
+    --vp-local-search-highlight-bg: var(--vp-c-brand-1);
+    --vp-local-search-highlight-text: var(--vp-c-neutral-inverse);
+
+
+}

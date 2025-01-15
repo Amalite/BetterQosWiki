@@ -9,7 +9,7 @@ First thing's first, it's recommended to get [Unity Hub](https://unity.com/downl
 
 Once you get Unity Hub installed, open it up and make a new account for Unity if you haven't before *(or just sign in if you have)*, and be sure to avoid installing any versions of Unity it recommends you. Chances are, you wouldn't be needing them!
 
-<img src="\images\Skip Install Example.jpg" width="50">
+<img src="\images\Skip Install Example.jpg" width="500">
 
 Next up, you might get an alert at the top of the window alerting you that you **don't have an active license**, but don't worry! This will only take a few seconds to fix, first, go to preferences **(the gear icon!)**, then click "Licenses", from there, just click "Add", and then "Get a free personal license", confirm the terms and conditions and boom! You have yourself a Unity Personal License!
 

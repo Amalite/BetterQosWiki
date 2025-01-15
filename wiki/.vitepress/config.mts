@@ -7,12 +7,12 @@ export default defineConfig({
   head: [
     [
       'link', {
-        rel: 'icon', href: 'https://github.com/Amalite/BetterQosWiki/blob/025ef81b0059ee82b736c99be4f201bd3f2a3696/wiki/icon.ico', type:"image/x-icon"
+        rel: 'icon', href: '/BetterQosWiki/icon.ico', type:"image/x-icon"
       }
     ],
     [
       'meta', {
-        property: 'og:image', content: 'https://github.com/Amalite/BetterQosWiki/blob/976b43f874bf2b77f54a5e64971dafbd6b5b981c/wiki/images/icon.png'
+        property: 'og:image', content: '/BetterQosWik/images/icon.png'
       }
     ],
     [
@@ -37,7 +37,7 @@ lastUpdated: true,
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-logo: 'https://github.com/Amalite/BetterQosWiki/blob/976b43f874bf2b77f54a5e64971dafbd6b5b981c/wiki/images/icon.png',
+logo: '/BetterQosWik/images/icon.png',
 
     nav: [
       { text: 'Home', link: '/' },

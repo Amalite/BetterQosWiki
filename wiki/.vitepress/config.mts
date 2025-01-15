@@ -7,12 +7,12 @@ export default defineConfig({
   head: [
     [
       'link', {
-        rel: 'icon', href: '/BetterQosWiki/icon.ico', type:"image/x-icon"
+        rel: 'icon', href: '/BetterQosWiki/images/icon.ico', type:"image/x-icon"
       }
     ],
     [
       'meta', {
-        property: 'og:image', content: '/BetterQosWik/images/icon.png'
+        property: 'og:image', content: '/BetterQosWiki/images/icon.png'
       }
     ],
     [
@@ -32,12 +32,11 @@ cleanUrls: true,
 cacheDir: '/.vitepress/cache',
 base: '/BetterQosWiki/',
 lastUpdated: true,
-
 //srcDir: './wiki',
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-logo: '/BetterQosWik/images/icon.png',
+logo: '/BetterQosWiki/images/icon.png',
 
     nav: [
       { text: 'Home', link: '/' },

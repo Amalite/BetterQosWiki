@@ -1,8 +1,42 @@
-/*:root (Light Mode)*/
+:root {
+    --vp-c-default-1: #8a6984;
+    --vp-c-default-2: #b997b3;
+    --vp-c-default-3: #dfb5d8;
+    --vp-c-default-soft: #f1cbfa;
+    --vp-c-brand-1: #521952;
+    --vp-c-brand-2: #961996;
+    --vp-c-brand-3: #c214ab;
+    --vp-c-brand-soft: #92b7e0;
+    --vp-c-bg:  #f4e4fd;
+    --vp-c-bg-alt: var(--vp-c-bg-elv);
+    --vp-c-bg-elv: #d3c4dd;
+    --vp-c-bg-soft:  #c8b3e4;
+    --vp-c-border: #cfcecf;
+    --vp-c-gutter: #c2b0c2;
+    --vp-c-divider: var(--vp-c-gutter);
+
+            /* Local Search*/
+            --vp-local-search-bg: var(--vp-c-bg-soft);
+            --vp-local-search-result-bg: #aa89aa;
+            --vp-local-search-result-border: #b690a9;
+            --vp-local-search-result-selected-bg: #635063;
+            --vp-local-search-result-selected-border: #5f2e61;
+            --vp-local-search-highlight-bg: var(--vp-c-brand-1);
+                /* Badges*/
+                --vp-custom-block-info-border:#b988b9;
+                --vp-badge-info-text: #511453;
+                --vp-badge-info-bg: #b572d4;
+                --vp-c-tip-1: #62c3db;
+                --vp-c-tip-soft: #345275;
+                --vp-c-warning-1: #66651b;
+                --vp-c-warning-soft: #eeedcc;
+                --vp-c-danger-1: #461717;
+                --vp-c-danger-soft: #fac4c4;
+}
 
 .dark{
     /* Main Colors*/
-    --vp-c-default-1: #251a24;
+    --vp-c-default-1: #ddbada;
     --vp-c-default-2: #462843;
     --vp-c-default-3: #5e3157;
     --vp-c-default-soft: #331d38;
@@ -11,18 +45,20 @@
     --vp-c-brand-3: #97318a;
     --vp-c-brand-soft: #305580;
     --vp-c-bg:  #110e13;
-    --vp-c-bg-alt: #18151a;
+    --vp-c-bg-alt: var(--vp-c-bg-elv);
     --vp-c-bg-elv: #18151a;
     --vp-c-bg-soft: #231f25;
+    --vp-c-border: #414141;
+    --vp-c-gutter: #3a333a;
+    --vp-c-divider: var(--vp-c-gutter);
 
         /* Local Search*/
-    --vp-local-search-bg: #241d25;
+    --vp-local-search-bg: var(--vp-c-bg-soft);
     --vp-local-search-result-bg: #1b161b;
     --vp-local-search-result-border: #1f131b;
     --vp-local-search-result-selected-bg: #0e0a0e;
     --vp-local-search-result-selected-border: #5f2e61;
     --vp-local-search-highlight-bg: var(--vp-c-brand-1);
-    --vp-local-search-highlight-text: var(--vp-c-neutral-inverse);
         /* Badges*/
         --vp-custom-block-info-border:#4b2b4b;
         --vp-badge-info-text: #c239c7;

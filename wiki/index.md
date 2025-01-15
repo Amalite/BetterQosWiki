@@ -37,14 +37,11 @@ const members = [
   }
 ]
 </script>
-
 <br>
 <br>
 <hr>
+<h1 align="center">Contributors</h1>
 <p align="center">
-<h1>Contributors</h1>
 People who helped out with the Wiki!
-</p>
-
 <VPTeamMembers size="medium" :members="members" />
-<hr>
+</p>

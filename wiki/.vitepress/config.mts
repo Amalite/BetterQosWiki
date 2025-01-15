@@ -73,8 +73,12 @@ logo: '/images/icon.png',
       text: 'Updated at',
       formatOptions: {
         dateStyle: 'full',
-        timeStyle: 'medium'
+        timeStyle: 'short'
       }
+    },
+
+    footer: {
+      message: '<a href="https://github.com/Amalite/BetterQosWiki">Github</a>',
     }
   }
 })

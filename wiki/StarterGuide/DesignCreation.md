@@ -5,7 +5,7 @@ title: Creating a Design
 
 It's easy to get ahead of yourself when it comes to modeling, but you'll often have ideas all over the place, which makes it **hard to stick to a design or theme**. If you don't have a *clear focus* on the look and style you want your saber to be, then you'll might just slap everything that looks cool in, which just makes the whole thing look ***terrible***!
 
-<img src="/images/Abomination Example.png" alt="A very hideous saber." width="500">
+<img src="/images/Abomination Example.png" alt="A very hideous saber." width="500"/>
 
 > A Standard-Needle-Reversed Needle with a ring, with a text ring reading "Beat Saber" twice in wingdings, and a galaxy Screenspace handle with frensel.
 
@@ -35,7 +35,7 @@ This step might be the trickiest of them all if you **aren't good at drawing**, 
 - Getting your ideas onto paper or in drawing apps like MSPaint ***is much better*** than keeping them all in your head, so this step is **important** to do so you don't change anything **major** on accident while you're modeling!
 - Be sure to leave notes so future you doesn't forget!
 
-<img src="/images/Design Example.png" width="750">
+<img src="/images/Design Example.png" width="750"/>
 
 ::: tip :bulb: TIP
 Be sure to fit **every** detail you want in your model when drawing! It helps you figure out what would look good and what wouldn't. Not everything fits together perfectly!

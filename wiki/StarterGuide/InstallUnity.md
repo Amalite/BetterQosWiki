@@ -9,7 +9,7 @@ First thing's first, it's recommended to get [Unity Hub](https://unity.com/downl
 
 Once you get Unity Hub installed, open it up and make a new account for Unity if you haven't before *(or just sign in if you have)*, and be sure to avoid installing any versions of Unity it recommends you. Chances are, you wouldn't be needing them!
 
-<img src="\images\Skip Install Example.jpg" width="500">
+<img src="\images\Skip Install Example.jpg" width="500"/>
 
 Next up, you might get an alert at the top of the window alerting you that you **don't have an active license**, but don't worry! This will only take a few seconds to fix, first, go to preferences **(the gear icon!)**, then click "Licenses", from there, just click "Add", and then "Get a free personal license", confirm the terms and conditions and boom! You have yourself a Unity Personal License!
 
@@ -17,7 +17,7 @@ Next up, you might get an alert at the top of the window alerting you that you *
 You can also click the button on the top right reading "Manage Licenses" from the alert box!
 :::
 
-<img src="\images\Activate License Example.jpg" width="500">
+<img src="\images\Activate License Example.jpg" width="500"/>
 
 ## Installing the right version of Unity
 Once you have Unity Hub set up, you're ready to install Unity! **Be careful though**, you can't just install any version of Unity! You need a specific version called **2019.3.2f1**, don't forget it!
@@ -27,7 +27,7 @@ If you ever clicked "Install Editor", you'll have noticed that this ***special**
 
 Once you confirm that you clicked on the right version of Unity in Unity Hub *(Look at the top left of the window that popped up!)*, be sure to check the boxes for **"Android Build Support"**, as without it, you **wouldn't be able to export** your sabers to for Quest!
 
-<img src="\images\Installing Editor Example.jpg" width="500">
+<img src="\images\Installing Editor Example.jpg" width="500"/>
 
 After you continue and accept the terms and conditions, all that's left is to wait for Unity to download and install!
 ::: warning  :warning: WARNING

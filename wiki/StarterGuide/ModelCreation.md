@@ -12,11 +12,11 @@ If you don't know how to use Blender, you can learn the basics [here](/StarterGu
 ## Opening Blender and Setting Up Your Scene
 Time to open Blender and get started! Once you open Blender, you will see a splash screen pop up with a few options, you can either click outside of the box, or just click "General" under "New File"
 
-<img src="\images\Blender Splash Example.png" width="500">
+<img src="/images/Blender Splash Example.png" width="500">
 
 From there, you'll have full access to Blender's tools we'll use to make models!
 
-<img src="\images\Blender Scene Example.png" width="1000">
+<img src="/images/Blender Scene Example.png" width="1000">
 
 ::: info :speech_balloon: NOTE
 If you see anything here that you don't find on your version of Blender, you might not be on the version I use (4.1), or I have an **addon** you can get online! For the sake of simplicity, we won't go over anything that requires an addon or extension to Blender that isn't already built-in.
@@ -26,17 +26,17 @@ If you see anything here that you don't find on your version of Blender, you mig
 ## Step 1: Delete the cube, camera, and light included with the new file
 Don't worry! You can create them again later, but not having them in your scene can reduce the risk of accidentally exporting your model with them
 
-<img src="\images\Delete Cube Example.gif" width="1000">
+<img src="/images/Delete Cube Example.gif" width="1000">
 
 
 ## Step 2: Add the template model, and move it to a good spot
 In order to make your saber the right size, you need a template to get the size off of!
-In Blender, click `File>Import>FBX`. This will open a window showing your files. Navigate to where you have your Qosmetics Project, and go to `Assets\Qosmetics\Models\`, from there, you should see a file named `Actual_good_template.fbx`. This is the saber template!
+In Blender, click `File>Import>FBX`. This will open a window showing your files. Navigate to where you have your Qosmetics Project, and go to `Assets/Qosmetics/Models/`, from there, you should see a file named `Actual_good_template.fbx`. This is the saber template!
 
-<img src="\images\Import Template Example.png" width="750">
+<img src="/images/Import Template Example.png" width="750">
 
 > ***After that, you'll see that you now have the template in your scene, ready to use!***
-> <img src="\images\Template Scene Example.png" width="750">
+> <img src="/images/Template Scene Example.png" width="750">
 
 ::: info :speech_balloon: NOTE
 When you import the template, they'll be found at the origin of the scene, just move the Hitbox and Shape models around to where you want!
@@ -50,7 +50,7 @@ As a general rule of thumb, **_don't use the template in your saber_** unless yo
 Click `Add>Mesh>Cylinder` to create a cylinder in your scene, and then, opening the `Add Cylinder` dropdown box, move around the sliders for **height**, **radius**, **location**, and **rotation** until the cylinder is the **right size** to be your saber's **handle**!
 ::: tip :bulb: TIP
 If you **accidentally click away** from the dropdown box, you can still change ***most*** of these values! Just use the **Move**, **Scale**, and **Rotate** tools!
-<img src="\images\Create Cylinder Example.png" width="750">
+<img src="/images/Create Cylinder Example.png" width="750">
 :::
 
 ::: danger :no_entry: CAUTION
@@ -64,8 +64,8 @@ Going into the **Modeling Tab**, select one side of a cylinder's **vertices**, a
 Before **using the Scale tool**, open the dropdown box when extruding and set the newly created vertices' positions to `0`, this will move your created verts to the same exact spot where the original vertices are. This will prevent a **"slope"** being created when you then shrink them!
 :::
 
-<img src="\images\Extrude Example.png" width="750">
-<img src="\images\Correct Baton Example.png" width="750">
+<img src="/images/Extrude Example.png" width="750">
+<img src="/images/Correct Baton Example.png" width="750">
 
 Then, use the **Extrude Tool** again to make the length of the blade. If you want, you can repeat this step over and over to achieve a "Police Baton"-like design, with the blade getting incrementally thinner towards the end, or skip the note step to create a **needle blade**!
 
@@ -88,15 +88,15 @@ This step is about as easy as **Step 3**. Going back to the **Layout Tab**, crea
 **Major Radius** changes the overall **size** of the ring, while **Minor Torus** changes the **thickness** of the ring.
 :::
 
-<img src="\images\Create Ring Example.png" width="750">
+<img src="/images/Create Ring Example.png" width="750">
 
 ## Step 6: Material slots and Shading setup!
 Select both the **saber** and the **ring**, right click to open the **context menu**, and select `Shade Smooth`
 
-<img src="\images\Shade Smooth Example.png" width="500">
+<img src="/images/Shade Smooth Example.png" width="500">
 
 This will make your model appear **smooth**, making each face of the model have smooth lighting with nearby faces instead of the flat lighting it has by default.
-<img src="\images\Shade Smooth Finish Example.png" width="500">
+<img src="/images/Shade Smooth Finish Example.png" width="500">
 
 ::: tip :bulb: TIP
 If you ever want to go back to flat shading, just click **Shade Flat** in the context menu!
@@ -105,23 +105,23 @@ If you ever want to go back to flat shading, just click **Shade Flat** in the co
 ### Next, we'll set **Material Slots**
 To do this, go to the **Properties** window, select the Material tab, and then, while having **just** the saber selected, click the `+` sign twice. This will create 2 Material Slots to use later on that we now have to set up.
 
-<img src="\images\Material Slots Example.png" width="250">
+<img src="/images/Material Slots Example.png" width="250">
 
 <br/>
 <br/>
 
 Now go into the **Modeling Tab** and change the Viewport Shading mode to Wireframe. **Select the vertices** for the **blade** of the saber, and click `Assign` on the **Properties** window. This will set the first Material Slot to be used by the **blade** of the saber. Now do the same with the saber's **handle**, using the second **Material Slot**!
 
-<img src="\images\Material Slots Selection Example.gif" width="750">
+<img src="/images/Material Slots Selection Example.gif" width="750">
 
 ::: info :speech_balloon: NOTE
 To test your material slots, make two different materials and set them to these two different slots, by clicking the material icon below the material slot list, or by clicking the `New Material` button, and then changing the `Base Color` to something easily visible.
 <br>
-<img src="\images\Material Creation Example.png" width="250">
+<img src="/images/Material Creation Example.png" width="250">
 <br>
 Then change your Viewport Shading mode to Material Preview.
 <br>
-<img src="\images\Material Slots Preview Example.png" width="750">
+<img src="/images/Material Slots Preview Example.png" width="750">
 :::
 
 ::: danger :no_entry: CAUTION
@@ -139,11 +139,11 @@ You're almost done! Now all that's left is to finish up whatever you have left t
 
 First, it is *generally good practice* to name the parts of your saber. To do this, **double click** the name of the saber part in your **Hierarchy window**, and type in the name you want for that part of the saber and press `Enter` or click away to confirm.
 
-<img src="\images\Blender Name Example.png" width="250">
+<img src="/images/Blender Name Example.png" width="250">
 
 Next, we're going to **parent** the ring to the saber. To do this, first **select first the ring**, then the **saber**. Then after pressing `Right Click`, click `Parent>Object` to parent the ring to the saber.
 
-<img src="\images\Blender Parent Example.png" width="750">
+<img src="/images/Blender Parent Example.png" width="750">
 
 ::: tip  :bulb: TIP
 "Parenting" is the act of letting the **Location**, **Rotation**, and **Scale** of the Parent object also be replicated on the Child object. *It's not exactly necessary to do before exporting*, but doing so would make importing and placing your models into Unity **a bit easier to do**.

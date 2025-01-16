@@ -15,7 +15,7 @@ How are you going to make models without 3D Modeling Software? Applications like
 
 The best (and free) option of them all is **Blender**, which you can download from [here](https://www.blender.org/download/), or, if you have Steam installed on your computer, and always want the latest versions of Blender, you can download the Steam version from [here](https://store.steampowered.com/app/365670/Blender/).
 ::: info :speech_balloon: NOTE
-If you want to **learn how to use Blender**, click [here](/WIP)
+If you want to **learn how to use Blender**, click [here](/StarterGuide/BlenderTutorial)
 :::
 <hr>
 

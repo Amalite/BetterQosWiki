@@ -13,7 +13,7 @@ Once you get Unity Hub installed, open it up and make a new account for Unity if
 
 Next up, you might get an alert at the top of the window alerting you that you **don't have an active license**, but don't worry! This will only take a few seconds to fix, first, go to preferences **(the gear icon!)**, then click "Licenses", from there, just click "Add", and then "Get a free personal license", confirm the terms and conditions and boom! You have yourself a Unity Personal License!
 
-::: info :speech_balloon: NOTE
+::: tip :bulb: TIP
 You can also click the button on the top right reading "Manage Licenses" from the alert box!
 :::
 

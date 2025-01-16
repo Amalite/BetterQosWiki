@@ -5,7 +5,7 @@ title: Blender Tutorial
 Here is where you'll learn the basics of how to navigate around Blender. You won't learn how to do everything here, just what you need to know to properly get to creating your model!
 
 ::: info :speech_balloon: NOTE
-If you already know how to use Blender, you can [skip this step](/WIP).
+If you already know how to use Blender, you can [skip this step](/StarterGuide/ModelCreation).
 :::
 
 ## Selecting Objects and Moving Your View
@@ -74,4 +74,4 @@ To make any specific changes to your object as a whole, such as transform it or 
 <img src="\images\Properties Example.png" width="500">
 
 ***
-Once you've gotten accustomed to using Blender, you're ready to start [making some models](/WIP)!
+Once you've gotten accustomed to using Blender, you're ready to start [making some models](/StarterGuide/ModelCreation)!

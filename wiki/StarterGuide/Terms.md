@@ -5,7 +5,7 @@ title: Modeler Terminology
 Modelers and posts of custom models use a variety of terms that can be confusing to a newcomer, as well as anyone not looking to make their own custom models. Thankfully, this page is here to define what these puzzling words mean!
 <hr>
 
-### Custom Colors (Also known as CC
+### Custom Colors (Also known as CC)
 CC, or Custom Colors, are the colors of the sabers, blocks, and walls that you can change in-game, you can find (and change!) your Custom Colors in the Player Options tab.
 - If a custom model say it supports CC or Custom Colors, then that means parts of the saber will change color to match what you have set in your settings!
 

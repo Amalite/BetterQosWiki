@@ -12,7 +12,7 @@ hero:
       link: /StarterGuide/StarterIntro
     - theme: alt
       text: Ready for Advanced Skills?
-      link: /WIP
+      link: /AdvancedGuide/AdvancedIntro
 
 features:
   - title: Feature A
@@ -34,7 +34,15 @@ const members = [
       { icon: 'github', link: 'https://github.com/Amalite' },
       { icon: 'twitter', link: 'https://twitter.com/Formovian' }
     ]
-  }
+  },
+{
+    avatar: 'https://yt3.googleusercontent.com/qHEB-pHoZG2owzW1BvB0q25BgPUWy860i_czU-Khy0bSl9RZ9qRoe75HgictrKuOosSVxVfLpw=s160-c-k-c0x00ffffff-no-rj',
+    name: '3.wav (3wav) 3.wav',
+    title: 'Video Guide Author',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@wav-po2ur' }
+    ]
+  },
 ]
 </script>
 <br>

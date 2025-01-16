@@ -7,12 +7,12 @@ export default defineConfig({
   head: [
     [
       'link', {
-        rel: 'icon', href: '/BetterQosWiki/images/icon.ico', type:"image/x-icon"
+        rel: 'icon', href: 'https://raw.githubusercontent.com/Amalite/BetterQosWiki/refs/heads/master/wiki/icon.ico'
       }
     ],
     [
       'meta', {
-        property: 'og:image', content: '/BetterQosWiki/images/icon.png'
+        property: 'og:image', content: 'https://raw.githubusercontent.com/Amalite/BetterQosWiki/refs/heads/master/wiki/images/icon.png'
       }
     ],
     [
@@ -36,12 +36,12 @@ lastUpdated: true,
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-logo: '/BetterQosWiki/images/icon.png',
+logo: 'https://raw.githubusercontent.com/Amalite/BetterQosWiki/refs/heads/master/wiki/images/icon.png',
 
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Starter Guide', link: '/StarterGuide/StarterIntro' },
-      { text: 'Advanced Guide', link: '/WIP' }
+      { text: 'Advanced Guide', link: '/AdvancedGuide/AdvancedIntro' }
     ],
 
     sidebar: [
@@ -56,7 +56,9 @@ logo: '/BetterQosWiki/images/icon.png',
             ]}
 
           ]},
-          { text: 'Advanced Guide', link: '/WIP' }
+          { text: 'Advanced Guide', link: '/AdvancedGuide/AdvancedIntro', items:[
+            {text:'Videos', link:'/AdvancedGuide/Videos'}
+        ]}
         ]
       }
     ],

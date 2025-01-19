@@ -9,7 +9,7 @@ There sure is! Each saber and block type is designed to fit various playstyles a
 ### Default
 Defaults are sabers that have the same shape as the vanilla sabers, having the same width, from start to end, like a baton you pass in a race!
 
-<img src="/images/Default Example.png" width="500"/>
+<!--<img src="/images/Default Example.png" width="500"/>-->
 
 ### Needle
 Needles are sabers that start wide, but get thinner towards the end of the saber, like a needle for sewing!

@@ -12,7 +12,7 @@ If you don't know how to use Blender, you can learn the basics [here](/StarterGu
 ## Opening Blender and Setting Up Your Scene
 Time to open Blender and get started! Once you open Blender, you will see a splash screen pop up with a few options, you can either click outside of the box, or just click "General" under "New File"
 
-<img src="/images/Blender Splash Example.png" width="500"/>
+<img src="/images/Blender Splash Example.png" width="500"/> -->
 
 From there, you'll have full access to Blender's tools we'll use to make models!
 
@@ -151,7 +151,7 @@ Next, we're going to **parent** the ring to the saber. To do this, first **selec
 
 Finally comes exporting the saber itself. To do this, click `File>Export>FBX(.fbx)` (you can also export as an OBJ, either works). This will open a file browser window, similar to all the way back in **Step 1**. Find a good place to export your saber, and give it a name! Next, make sure your saber in all of it's parts are selected, turn on `Selected Objects` to export **just** the objects you have selected, and click `Mesh` in **Object Types**. This will *not only* make it so Blender will **only export the objects you have selected**, and then **only export the objects that are Meshes**, which your saber is.
 
-<img src="https://github.com/user-attachments/assets/5895437f-0592-4387-a518-576e0351e2ad" width="750"/>
+<img src="/images/Blender Export Example.png" width="750"/>
 <hr>
 
-After that, just click `Export FBX`, and **you're done!** You just made your very own saber model, and now you're ready to put it into [Unity to turn it into a functional Whacker to use in Beat Saber]().
+After that, just click `Export FBX`, and **you're done!** You just made your very own saber model, and now you're ready to put it into [Unity to turn it into a functional Whacker to use in Beat Saber](/WIP).

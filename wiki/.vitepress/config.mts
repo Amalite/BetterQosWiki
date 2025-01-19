@@ -27,7 +27,6 @@ export default defineConfig({
     ]
   ],
 
-ignoreDeadLinks: true,
 lang: 'en-US',
 cleanUrls: true,
 cacheDir: '/.vitepress/cache',

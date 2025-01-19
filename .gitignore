@@ -2,4 +2,3 @@ node_modules
 BetterQosWiki.code-workspace
 .vitepress/cache
 .vscode
-wiki/.vitepress/dist

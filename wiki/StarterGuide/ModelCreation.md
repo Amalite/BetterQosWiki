@@ -12,7 +12,7 @@ If you don't know how to use Blender, you can learn the basics [here](/StarterGu
 ## Opening Blender and Setting Up Your Scene
 Time to open Blender and get started! Once you open Blender, you will see a splash screen pop up with a few options, you can either click outside of the box, or just click "General" under "New File"
 
-<img src="/images/Blender Splash Example.png" width="500"/> -->
+<img src="/images/Blender Splash Example.jpg" width="500"/> -->
 
 From there, you'll have full access to Blender's tools we'll use to make models!
 

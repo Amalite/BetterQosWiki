@@ -48,8 +48,8 @@ logo: 'https://raw.githubusercontent.com/Amalite/BetterQosWiki/refs/heads/master
       {
         //text: 'Examples', link: '/WIP',
         items: [
-          { text: 'Starter Guide', link: '/StarterGuide/StarterIntro', items:[
-            {text: 'Setup', items:[
+          { text: 'Starter Guide', link: '/StarterGuide/StarterIntro', collapsed: true, items:[
+            {text: 'Setup', collapsed: false, items:[
             {text: 'Modeler Terminology', link:'/StarterGuide/Terms'},
             {text: 'Installing Unity', link:'/StarterGuide/InstallUnity'},
             {text: 'Blender Tutorial', link:'/StarterGuide/BlenderTutorial'},
@@ -59,10 +59,10 @@ logo: 'https://raw.githubusercontent.com/Amalite/BetterQosWiki/refs/heads/master
             {text: 'Creating a Design', link:'/StarterGuide/DesignCreation'},
             {text: 'Making the Model', link:'/StarterGuide/ModelCreation'}
           ]},
-          { text: 'Advanced Guide', link: '/AdvancedGuide/AdvancedIntro', items:[
+          { text: 'Advanced Guide', link: '/AdvancedGuide/AdvancedIntro', collapsed: true, items:[
             {text:'Videos', link:'/AdvancedGuide/Videos'}
         ]}
-        ]
+        ],
       }
     ],
 

@@ -1,5 +1,6 @@
 ---
 title: Advanced Intro
+prev: false
 ---
 # Welcome to the Advanced Guide!
 This is meant to act as a guide for **more skilled** modelers, looking to learn some extra tips and tricks to make models better and more easily.

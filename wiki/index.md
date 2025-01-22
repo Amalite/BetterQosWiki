@@ -11,16 +11,8 @@ hero:
       text: New To Modeling?
       link: /StarterGuide/StarterIntro
     - theme: alt
-      text: Ready for Advanced Skills?
+      text: Ready for some Advanced Skills?
       link: /AdvancedGuide/AdvancedIntro
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
@@ -45,8 +37,6 @@ const members = [
   },
 ]
 </script>
-<br>
-<br>
 <hr>
 <h1 align="center">Contributors</h1>
 <p align="center">

@@ -32,7 +32,7 @@ cleanUrls: true,
 cacheDir: '/.vitepress/cache',
 base: '/BetterQosWiki/',
 lastUpdated: true,
-//srcDir: './wiki',
+// srcDir: '/wiki',
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

@@ -53,6 +53,7 @@ logo: 'https://raw.githubusercontent.com/Amalite/BetterQosWiki/refs/heads/master
             {text: 'Modeler Terminology', link:'/StarterGuide/Terms'},
             {text: 'Installing Unity', link:'/StarterGuide/InstallUnity'},
             {text: 'Blender Tutorial', link:'/StarterGuide/BlenderTutorial'},
+            {text:'Unity Tutorial', link:'/StarterGuide/UnityTutorial'},
             {text: 'Types of Models', link:'/StarterGuide/ModelTypes'}
             ]},
 

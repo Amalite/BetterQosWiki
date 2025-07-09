@@ -29,7 +29,7 @@ export default defineConfig({
 
 lang: 'en-US',
 cleanUrls: true,
-cacheDir: '/.vitepress/cache',
+cacheDir: ".vitepress/cache",
 base: '/BetterQosWiki/',
 lastUpdated: true,
 // srcDir: '/wiki',

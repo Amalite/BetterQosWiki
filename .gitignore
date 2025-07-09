@@ -3,3 +3,4 @@ BetterQosWiki.code-workspace
 .vitepress/cache
 .vscode
 wiki/.vitepress/dist
+wiki/.vitepress/cache

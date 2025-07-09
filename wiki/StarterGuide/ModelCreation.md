@@ -154,4 +154,4 @@ Finally comes exporting the saber itself. To do this, click `File>Export>FBX(.fb
 <img src="/images/Blender Export Example.png" width="750"/>
 <hr>
 
-After that, just click `Export FBX`, and **you're done!** You just made your very own saber model, and now you're ready to put it into [Unity to turn it into a functional Whacker to use in Beat Saber](/WIP).
+After that, just click `Export FBX`, and **you're done!** You just made your very own saber model, and now you're ready to put it into [Unity to turn it into a functional Whacker to use in Beat Saber](/StarterGuide/UnityTutorial).

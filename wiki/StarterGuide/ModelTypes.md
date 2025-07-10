@@ -31,7 +31,7 @@ Blades are a term to define any saber that are swords, like katanas!
 An image is supposed to go here, but Amalien didn't make a sword yet.
 
 Take this picture of a ***very small*** **Plasma Katana** as a temporary replacement until Amalien or someone else makes a blade to use as an example
-<img src="https://cdn.discordapp.com/attachments/1012478123549393006/1012780561456189480/unknown.png?ex=6789ef26&is=67889da6&hm=6968c638b470e5671925a6d06bff40401f9ebcfb9d1c81f8f1917b2e409c18c6&" width="75"/>
+<img src="/images/Apology Plasma Katana.png" width="75"/>
 :::
 ### Baton
 Batons are sabers that have a large handle, then suddenly become thin for the rest of the saber, like baton weapons!

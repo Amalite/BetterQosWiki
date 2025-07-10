@@ -5,7 +5,7 @@ titleTemplate: false
 hero:
   name: "Better Qos Wiki"
   text: ""
-  tagline: A better version of the Wiki used to guide newcomers to making their own Sabers, Cubes, and Walls for Qosmetics.
+  tagline: A better version of the Wiki used to guide newcomers to making their own Sabers, Cubes, and Walls for Qosmetics/Custom Models.
   actions:
     - theme: brand
       text: New To Modeling?

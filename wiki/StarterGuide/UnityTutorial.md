@@ -21,7 +21,7 @@ Video Games can be made up of **hundreds of different** Scenes, or just **a few*
 *For example*, **the area you play songs** in **Beat Saber** is a single Scene! Instead of making every song chart be it's own Unity **Scene**, Beat Saber instead reads data from a song chart that it then uses to create notes all in that one **Scene**!
 :::
 ## Navigation
-**It's quite similar to Blender!** Click on Objects to *select them and use Gizmos* on the selected object, and *Middle Click** to Pan the camera. The differences now come in when it comes to the use of **Right Click** in the **Scene Window**.
+**It's quite similar to Blender!** Click on Objects to *select them and use Gizmos* on the selected object, and **Middle Click** to Pan the camera. The differences now come in when it comes to the use of **Right Click** in the **Scene Window**.
 
 Instead of opening a context window, **Right Click lets you fly the camera around!** Use **WASD** to move the camera, **Q** to go down, **E** to go up, **Shift** to speed up the camera, and **Scroll Wheel** to adjust the speed of the camera.
 

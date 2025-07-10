@@ -22,7 +22,7 @@ You can also click the button on the top right reading "Manage Licenses" from th
 ## Installing the right version of Unity
 Once you have Unity Hub set up, you're ready to install Unity! **Be careful though**, you can't just install any version of Unity! You need a specific version called **2019.3.2f1**, don't forget it!
 
-::: info :speech_balloon: NOTE
+::: tip :bulb: TIP
 If you don't want to/can't use Unity **2019.3.2f1**, you can instead use the version Beat Saber currently uses for it's latest versions!
 
 Just follow the same steps for finding Unity 2019.3.2f1, but instead use those steps to find Unity **2022.3.33f1**!

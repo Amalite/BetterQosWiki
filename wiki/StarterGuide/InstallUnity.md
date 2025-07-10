@@ -22,6 +22,12 @@ You can also click the button on the top right reading "Manage Licenses" from th
 ## Installing the right version of Unity
 Once you have Unity Hub set up, you're ready to install Unity! **Be careful though**, you can't just install any version of Unity! You need a specific version called **2019.3.2f1**, don't forget it!
 
+::: info :speech_balloon: NOTE
+If you don't want to/can't use Unity **2019.3.2f1**, you can instead use the version Beat Saber currently uses for it's latest versions!
+
+Just follow the same steps for finding Unity 2019.3.2f1, but instead use those steps to find Unity **2022.3.33f1**!
+:::
+
 If you ever clicked "Install Editor", you'll have noticed that this ***special*** version of Unity doesn't appear here! The reason is because Unity Hub typically only shows it's latest versions of Unity straight from the app, with 2019.3.2f1 being what's called a **LTS**, or Long-Term Support version of Unity, which you will have to get off of Unity's website from [here](https://unity.com/releases/editor/archive). 
 - Just click **"Unity 2019.X"**, then scroll down until you see **"2019.3.2"**, and then click **"Unity Hub"**, which will open Unity Hub for you to install that version of Unity!
 
@@ -36,3 +42,11 @@ After you continue and accept the terms and conditions, all that's left is to wa
  **You do not need to install Microsoft VS to make sabers,** but if you want to [make your own **shaders**](/WIP), you can use **[Visual Studio Code](https://code.visualstudio.com).**
 :::
 Once it's done installing, you're ready to open the [Qosmetics Project](/WIP) and get started on turning your model into a saber, cube, or wall!
+
+::: info :speech_balloon: NOTE
+If using **2022.3.33f1** instead of **2019.3.2f1**, Unity will warn you against using a **newer version of Unity on an older project**.
+<br>
+<br>
+<br>
+<font size="5%"><b>It is safe to ignore this warning. The Unity Project will not break.</b></font>
+:::

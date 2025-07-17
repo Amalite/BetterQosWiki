@@ -23,13 +23,13 @@ If you see anything here that you don't find on your version of Blender, you mig
 :::
 
 # For this guide, we'll be making a saber based off of the design I came up with in the [Design Phase](https://github.com/Amalite/BetterQosWiki/wiki/Coming-Up-With-A-Design#what-is-your-model-going-to-look-like-when-its-finished), so follow along with your own design and use what I show you with your own saber! {#StartModeling}
-## Step 1: Delete the cube, camera, and light included with the new file
+## Step 1: Delete the cube, camera, and light included with the new file {#Step-1}
 Don't worry! You can create them again later, but not having them in your scene can reduce the risk of accidentally exporting your model with them
 
 <img src="/images/Delete Cube Example.gif" width="1000"/>
 
 
-## Step 2: Add the template model, and move it to a good spot
+## Step 2: Add the template model, and move it to a good spot {#Step-2}
 In order to make your saber the right size, you need a template to get the size off of!
 In Blender, click `File>Import>FBX`. This will open a window showing your files. Navigate to where you have your Qosmetics Project, and go to `Assets/Qosmetics/Models/`, from there, you should see a file named `Actual_good_template.fbx`. This is the saber template!
 
@@ -46,7 +46,7 @@ When you import the template, they'll be found at the origin of the scene, just 
 As a general rule of thumb, **_don't use the template in your saber_** unless you modify it in a significant way. **Try to be original!**
 :::
 
-## Step 3: Create a cylinder, and transform it into a handle
+## Step 3: Create a cylinder, and transform it into a handle {#Step-3}
 Click `Add>Mesh>Cylinder` to create a cylinder in your scene, and then, opening the `Add Cylinder` dropdown box, move around the sliders for **height**, **radius**, **location**, and **rotation** until the cylinder is the **right size** to be your saber's **handle**!
 ::: tip :bulb: TIP
 If you **accidentally click away** from the dropdown box, you can still change ***most*** of these values! Just use the **Move**, **Scale**, and **Rotate** tools!
@@ -57,7 +57,7 @@ If you **accidentally click away** from the dropdown box, you can still change *
 Be careful with changing the **Vertices** value! This determines **how many sides your cylinder will have**; the higher the number, the more sides. While this may seem good to turn up to as high as possible, **high values can seriously impact performance**. Keep it to the default **32** or even **16**! We'll show you a neat trick for making your models appear smooth later.
 :::
 
-## Step 4: Make the blade by extruding the front of the cylinder
+## Step 4: Make the blade by extruding the front of the cylinder {#Step-4}
 Going into the **Modeling Tab**, select one side of a cylinder's **vertices**, and select the **Extrude Tool**, with it, move the yellow circle just a bit to extrude the vertices, then, selecting the **Scale** Tool, **shrink the vertices** until you have the **blade's width** that you want to have
 
 ::: info :speech_balloon: NOTE
@@ -82,7 +82,7 @@ To speed up production, you can use `C` to enter **Circle Select** mode, allowin
 </video>
 :::
 
-## Step 5: Making a ring
+## Step 5: Making a ring {#Step-5}
 This step is about as easy as **Step 3**. Going back to the **Layout Tab**, create a Torus through `Add>Mesh>Torus`, and using the dropdown box, change the **Major Radius**, **Minor Radius**, **Location**, and **Rotation** until the newly created ring is positioned at the end of the handle, and the start of the blade.
 ::: info :speech_balloon: NOTE
 **Major Radius** changes the overall **size** of the ring, while **Minor Torus** changes the **thickness** of the ring.
@@ -90,7 +90,7 @@ This step is about as easy as **Step 3**. Going back to the **Layout Tab**, crea
 
 <img src="/images/Create Ring Example.png" width="750"/>
 
-## Step 6: Material slots and Shading setup!
+## Step 6: Material slots and Shading setup! {#Step-6}
 Select both the **saber** and the **ring**, right click to open the **context menu**, and select `Shade Smooth`
 
 <img src="/images/Shade Smooth Example.png" width="500"/>
@@ -134,7 +134,7 @@ If a part of your saber *doesn't* use Custom Colors, then it's still good to wor
 <br/>
 <br/>
 
-## Step 7: Finish up your model, name the parts to the model, and export!
+## Step 7: Finish up your model, name the parts to the model, and export! {#Step-7}
 You're almost done! Now all that's left is to finish up whatever you have left to do on your saber, group your parts together, and export the saber to put into Unity.
 
 First, it is *generally good practice* to name the parts of your saber. To do this, **double click** the name of the saber part in your **Hierarchy window**, and type in the name you want for that part of the saber and press `Enter` or click away to confirm.

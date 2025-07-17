@@ -1,7 +1,7 @@
 ---
 title: Unity Tutorial
 ---
-# Unity is a tricky program to use, even harder to work with than Blender!
+# Unity is a tricky program to use, even harder to work with than Blender! {#Intro}
 But don't worry. **You won't be shown the entire ins and outs of using Unity.** Instead, you'll learn just the ***basics*** of what you need to know in order to make your own saber!
 
 ::: info :speech_balloon: NOTE
@@ -20,12 +20,15 @@ Video Games can be made up of **hundreds of different** Scenes, or just **a few*
 
 *For example*, **the area you play songs** in **Beat Saber** is a single Scene! Instead of making every song chart be it's own Unity **Scene**, Beat Saber instead reads data from a song chart that it then uses to create notes all in that one **Scene**!
 :::
+
 ## Navigation
+
 **It's quite similar to Blender!** Click on Objects to *select them and use Gizmos* on the selected object, and **Middle Click** to Pan the camera. The differences now come in when it comes to the use of **Right Click** in the **Scene Window**.
 
 Instead of opening a context window, **Right Click lets you fly the camera around!** Use **WASD** to move the camera, **Q** to go down, **E** to go up, **Shift** to speed up the camera, and **Scroll Wheel** to adjust the speed of the camera.
 
 ## Gizmos
+
 <img src="/images/Unity Gizmo Example.png" width="100"/>
 
 Similar to Blender as well, Unity has it's own **Gizmos**, and they function quite the same way here. We'll only show you what's new, so if you know how to use [Blender's Gizmos](/StarterGuide/BlenderTutorial#gizmos), this should be easy to catch on!
@@ -43,8 +46,10 @@ Use this tool if you find using Middle Click to pan to be tiring, or you don't w
 
 ### Rectangle Tool
 2nd from the bottom is the Rectangle Tool, also known as the **Rect Tool**. This lets you drag a **selection box** over objects to select multiple objects at once! Using this tool is helpful if you found multiple objects in your Scene that you don't know the names of in the **Hierarchy** *(Found **Left** of the Scene Window)*, or there's just too many of them to be able to select all at once in the **Hierarchy**!
+<hr>
 
 # Inspector
+
 <img src="/images/Unity Inspector Window.png" width="500"/>
 
 This is the **Inspector Window**. This is where you'll configure a majority of the details of your selected object, where you can change the **Transforms** of the object if it is in your scene, along with any **Components** attached to said object.
@@ -99,3 +104,26 @@ By default, values will **smoothly change** from one the previous Keyframe to th
 
 In the previous example, this means that the Box will **take longer to return** from **Position 1(4) from Position 2(3)** than it took it to travel from **Position 1 to Position 2**!
 :::
+<hr>
+
+# Attaching Assets to GameObjects {#attaching-assets}
+
+There's two ways to attach Assets you've **made or acquired** to the objects in your scene! The first is the easiest when it's something like a **Material** you want a **part of the model** to use.
+
+### Drag the Asset from your Project Browser to the object in either the Scene View or the Hierarchy. {#Drag-and-Drop}
+<video controls width="600">
+<source src="/images/Drag and Drop Component Example.mp4" type="video/mp4"/>
+</video>
+If you drag a Material onto Object in the Scene View, You'll be able to preview what that Object will look like with that Material on before you set it!
+
+::: info :speech_balloon: NOTE
+If you have [Material Slots](/StarterGuide/ModelCreation#Step-6) in the Object, this Drag and Drop method is slightly more complicated. Just drag and drop the material onto the specifc part of the model you want to change the material of!
+:::
+
+### Add the Asset as a Component with the Add Component button in Inspector {#Add-Component}
+<video controls width="600">
+<source src="/images/Add Component Example.mp4" type="video/mp4"/>
+</video>
+
+If your asset is a **Script**, you can attach it as a component by itself! Just select the object, then in the Inspector Window, Click **Add Component**, and either **search the name** of the Script or **navigate** to where the script is stored *(Default is Scripts>"Script Name")*
+<hr>

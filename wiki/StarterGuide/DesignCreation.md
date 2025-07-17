@@ -1,7 +1,7 @@
 ---
 title: Creating a Design
 ---
-# Woah there, before you get started 3D modeling the saber of your dreams, you need to figure out what you want to make first!
+# Woah there, before you get started 3D modeling the saber of your dreams, you need to figure out what you want to make first! {#Intro}
 
 It's easy to get ahead of yourself when it comes to modeling, but you'll often have ideas all over the place, which makes it **hard to stick to a design or theme**. If you don't have a *clear focus* on the look and style you want your saber to be, then you'll might just slap everything that looks cool in, which just makes the whole thing look ***terrible***!
 

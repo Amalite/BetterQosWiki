@@ -1,14 +1,14 @@
 ---
 title: Blender Tutorial
 ---
-# Navigating around Blender can be confusing, thankfully, it's not that hard! 
+# Navigating around Blender can be confusing, thankfully, it's not that hard! {#Intro}
 Here is where you'll learn the basics of how to navigate around Blender. You won't learn how to do everything here, just what you need to know to properly get to creating your model!
 
 ::: info :speech_balloon: NOTE
 If you already know how to use Blender, you can [skip this step](/StarterGuide/ModelCreation).
 :::
 
-## Selecting Objects and Moving Your View
+## Selecting Objects and Moving Your View {#Navigation}
 Use **Left Click** to select objects and move **Gizmos** in your scene. **Middle Click** (Also known as pressing down the scroll wheel) to rotate, pan (while holding **Shift**) and zoom (while holding **Ctrl**)! And finally, **Right Click** to open your **context menu**! Context Menus are a list of options to choose from based on what you ***currently have selected***.
 
 ## Gizmos

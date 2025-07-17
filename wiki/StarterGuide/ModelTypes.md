@@ -1,7 +1,7 @@
 ---
 title: Types of Models
 ---
-# There's types of Sabers?!?
+# There's types of Sabers?!? {#Intro}
 There sure is! Each saber and block type is designed to fit various playstyles and personal preferences, they're not all like the official sabers!
 
 

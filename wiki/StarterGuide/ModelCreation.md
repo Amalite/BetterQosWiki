@@ -1,7 +1,7 @@
 ---
 title: Model Creation
 ---
-# Now that you've come up with an idea of what you want your model to be, it's time to get started with creating your custom model!
+# Now that you've come up with an idea of what you want your model to be, it's time to get started with creating your custom model! {#Intro}
 
 For tutorial purposes, we'll be making **a saber** with **Blender**. So if you're looking to create a wall or block first, you might want to translate some of these steps into making those, but if not, that's fine too! Just be sure to follow along as you create your saber!
 
@@ -22,7 +22,7 @@ From there, you'll have full access to Blender's tools we'll use to make models!
 If you see anything here that you don't find on your version of Blender, you might not be on the version I use (4.1), or I have an **addon** you can get online! For the sake of simplicity, we won't go over anything that requires an addon or extension to Blender that isn't already built-in.
 :::
 
-# For this guide, we'll be making a saber based off of the design I came up with in the [Design Phase](https://github.com/Amalite/BetterQosWiki/wiki/Coming-Up-With-A-Design#what-is-your-model-going-to-look-like-when-its-finished), so follow along with your own design and use what I show you with your own saber!
+# For this guide, we'll be making a saber based off of the design I came up with in the [Design Phase](https://github.com/Amalite/BetterQosWiki/wiki/Coming-Up-With-A-Design#what-is-your-model-going-to-look-like-when-its-finished), so follow along with your own design and use what I show you with your own saber! {#StartModeling}
 ## Step 1: Delete the cube, camera, and light included with the new file
 Don't worry! You can create them again later, but not having them in your scene can reduce the risk of accidentally exporting your model with them
 

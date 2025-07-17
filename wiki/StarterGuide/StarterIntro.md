@@ -1,7 +1,7 @@
 ---
 title: Starter Intro
 ---
-# Welcome to the Starter Guide!
+# Welcome to the Starter Guide! {#Intro}
 If you're new to modeling, and don't know what to do, you've come to the right place!
 
 You'll first need to know the [terminology of a modeler](/StarterGuide/Terms.md), then, you'll need to know what you'll need in order to make your very own models for Qosmetics!

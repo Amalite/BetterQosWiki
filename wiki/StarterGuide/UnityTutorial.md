@@ -127,3 +127,14 @@ If you have [Material Slots](/StarterGuide/ModelCreation#Step-6) in the Object, 
 
 If your asset is a **Script**, you can attach it as a component by itself! Just select the object, then in the Inspector Window, Click **Add Component**, and either **search the name** of the Script or **navigate** to where the script is stored *(Default is Scripts>"Script Name")*
 <hr>
+
+# Creating Materials
+To create a Material, right click the space inside the **Project Browser**, and click **Create>Material**. This will create a **Material** that you can name whatever you want. However, by default, it will use Unity's "**Standard**" shader. **To change the shader used by the Material**, look at the **drop-down box at the top of the Inspector Window** when you have the Material selected. Here, you can change the shader used from any of the ones listed in groups or by itself. If you have any shaders you've **downloaded or created** yourself, they will also show up here!
+
+<video controls width="600">
+<source src="/images/Shader Change Example.mp4" type="video/mp4"/>
+</video>
+
+::: warning  :warning: WARNING
+Learning how to **create your own shaders** is **complex**, so we won't go over that for now, but once you've made a couple of your own **Beat Saber models** and want to learn how to create them yourself, check out the [Advanced Guide](/AdvancedGuide/AdvancedIntro)!
+:::
